@@ -1,4 +1,3 @@
-
 let shop = document.getElementById("shop");
 
 let generateShop = () => {
@@ -7,7 +6,7 @@ let generateShop = () => {
       let { id, name, price, desc, img } = x;
       let search = basket.find((x) => x.id === id) || [];
       return `<div id = product-id-${id} class="item">
-      <img width="230" src="${img}" alt="" />
+      <img width="230" src="${img}" alt="cat" />
       <div class="details">
         <h3>${name}</h3>
         <p>${desc}</p>

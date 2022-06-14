@@ -19,7 +19,7 @@ let generateCart = () => {
         let search = shopItem.find((x) => x.id === id) || [];
         return `
       <div class="cart-items">
-      <img src="${search.img}" width="150" />
+      <img src="${search.img}" width="150" alt="img-cat"/>
       <div class="details">
         <div class="title-price-x">
           <h5 class="title-price">
@@ -128,8 +128,8 @@ let totalAm = () => {
     return (final.innerHTML = `
       <h2>Total Bill : $ ${amt}</h2>
       <div class="btn">
-      <button class="checkout">Checkout</button>
-      <button onclick="clearCart()" class="removeAll">Clear Cart</button>
+      <button class="checkout"><h3>Checkout</button>
+      <button onclick="clearCart()" class="removeAll"><h3>Clear Cart</button>
       </div>
       
       `);
