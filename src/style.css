@@ -21,8 +21,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #F94C66;
-  color: #fcf8e8;
+  background-color: #1b2430;
+  color: #ffd9c0;
   padding: 25px 60px;
   margin-bottom: 30px;
 }
@@ -30,7 +30,7 @@ body {
 .cart {
   position: relative;
   font-size: 35px;
-  padding: 5px;
+  padding: 6px;
 }
 .cart-amt {
   position: absolute;
@@ -39,6 +39,7 @@ body {
   font-size: 15px;
   background-color: #ff5d5d;
   border-radius: 4px;
+  padding: 2px;
 }
 
 .shop {
@@ -97,7 +98,7 @@ body {
 }
 
 footer {
-  background-color: #9a86a4;
+  background-color: #1b2430;
   color: #fcf8e8;
   padding: 25px 60px;
   margin-top: 30px;
@@ -113,14 +114,14 @@ footer {
 }
 
 .label button {
-  background-color: #7f5694;
+  background-color: #1b2430;
   border: none;
   padding: 7px;
   color: #fcf8e8;
   border-radius: 5px;
 }
 .label button:hover {
-  background-color: #8a689b;
+  background-color: #51557e;
 }
 
 .cross {
@@ -155,7 +156,7 @@ footer {
   gap: 20px;
 }
 .cart-price {
-  background-color: rgb(110, 79, 128);
+  background-color: #1b2430;
   color: #fcf8e8;
   border-radius: 4px;
   padding: 3px 6px;
