@@ -20,6 +20,7 @@ body {
 
 .navbar {
   display: flex;
+  font-size: 1rem;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -204,6 +205,9 @@ body {
   }
   .tag {
     display: none;
+  }
+  .cart{
+    font-size: 2rem;
   }
 }
 
